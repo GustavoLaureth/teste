@@ -46,6 +46,7 @@ input[type='password'], [type='email'], [type='name'] {
     margin-bottom: 10px;
     border: none;
     border-bottom: 1px solid #1890ff;
+    border-radius: 0;
     line-height: 30px;
     outline: none;
 }
