@@ -25,12 +25,12 @@
       </div>
       <div class="login-form">
         <form action="dashboard.html">
-          <input type="name" name="user" placeholder="User" required/>
+          <input type="name" name="user" id="name" placeholder="User" onkeyup="check()" required/>
           <div class="input-password">
-            <input type="password" id="password" name="password" placeholder="Senha" required/>
+            <input type="password" id="password" onkeypress="check()" name="password" placeholder="Senha" required/>
             <button id="button" type="button" onclick="ShowPassword()"><i id="eye" class="bi bi-eye"></i></button>
           </div>
-          <button type="submit">Entrar</button>
+          <button type="submit" id="button1">Entrar</button>
         </form>
       </div>
       <div class="footer">
