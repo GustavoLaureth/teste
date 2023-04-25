@@ -11,7 +11,7 @@ body {
     background-color: #edf1f5;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100vh;
 }
 
@@ -89,4 +89,37 @@ button:hover {
     justify-content: center;
     align-items: flex-end;
     font-size: 12px;
+}
+
+.space {
+    border-right: 1.5px solid #8e8e8e;
+    height: 280px;
+}
+
+.login-text p:nth-child(1) {
+    font-weight: Bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.login-text p:nth-child(2) {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 800px) {
+
+    body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .space {
+        display: none;
+    }
+
+    .login-text p:nth-child(2) {
+        display: none;
+    }
+
 }
