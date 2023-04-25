@@ -89,6 +89,11 @@ button {
 .space {
     border-right: 1.5px solid #8e8e8e;
     height: 280px;
+    transition: .7s ease;
+}
+
+.login-text:hover ~ .space { 
+    transform: scale(0.5) rotate(180deg);
 }
 
 .login-text p:nth-child(1) {
